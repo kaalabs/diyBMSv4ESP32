@@ -19,7 +19,7 @@ $("#globalConfig > h2").text("Integrale configuratie");
 $("#globalConfig > p").text("Configuratie van de modules met deze parameters");
 $("#mpBank").text("Bank");
 $("#mpModule").text("Module");
-$("#mpVoltage").text("Voltage");
+$("#mpVoltage").text("Spanning");
 $("#mpvmin").text("Vmin");
 // nota: aquí seguramente falte  $("#mpvmax").text("V. Máximo");
 $("#mptint").text("Temp intern °C");
@@ -51,7 +51,7 @@ $("label[for='NTPServer']").text("Servidor NTP");
 $("label[for='NTPZoneHour']").text("Zona horaria (hour)"); 
 
 //DIYBMS supports relay modules to safely disconnect chargers, contactors or consumers. The rules allow you to configure the relays for your situation.
-$("#rt1").text("DIYBMS admite módulos de relé para desconectar de forma segura cargadores, contactores o consumos. Las reglas le permiten configurar los relés para su situación.");
+$("#rt1").text("DIYBMS gebruikt relais om laders, contactors of verbruikers veilig af te sluiten. Regels stellen je in staat om relais te configureren voor jouw situatie.");
 //Rules are processed from lowest priorty to highest (bottom up). Control the relays using the options. A value of "X" means don't care/leave at value defined by lower priority rules.
 $("#rt2").text("Las reglas se procesan desde la prioridad más baja hasta la más alta (de abajo hacia arriba). Controle los relés usando las opciones. Un valor de 'X' significa que no se activará/desactivará con en el valor definido por las reglas de menor prioridad.");
 //Rules are triggered when the relevant value meets or exceeds the 'trigger' value. The rule will only disable when the value then passes the 'reset' value. This can help prevent relay clatter and rules firing on/off rapidly.
