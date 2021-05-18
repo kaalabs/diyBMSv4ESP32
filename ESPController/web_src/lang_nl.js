@@ -2,32 +2,32 @@
 // w3schools.com/tags/ref_language_codes.asp
 
 $("#home").text("Home"); //For me is better not translate "Home"
-$("#modules").text("Módulos");
-$("#settings").text("Ajustes");
-$("#rules").text("Reglas");
-$("#more").text("Más");
+$("#modules").text("Modules");
+$("#settings").text("Instellingen");
+$("#rules").text("Regels");
+$("#more").text("Meer");
 
-$("#integration").text("Integración");
-$("#currentmonitor").text("diyBMS monitoreo de amperaje");
-$("#storage").text("almacenamiento de registros");
-$("#avrprogrammer").text("programador de AVR");
+$("#integration").text("Integraties");
+$("#currentmonitor").text("diyBMS stroom monitor");
+$("#storage").text("Geheugen");
+$("#avrprogrammer").text("AVR programmeur");
 $("#about").text("Información");
 
-$("#modulesPage > h1").text("Módulos");
+$("#modulesPage > h1").text("Modules");
 
-$("#globalConfig > h2").text("Configuración global");
-$("#globalConfig > p").text("Configuración de todos los módulos conforme a los siguientes parametros");
-$("#mpBank").text("Banco");
-$("#mpModule").text("Módulo");
-$("#mpVoltage").text("Voltaje");
-$("#mpvmin").text("V. Mínimo");
+$("#globalConfig > h2").text("Integrale configuratie");
+$("#globalConfig > p").text("Configuratie van de modules met deze parameters");
+$("#mpBank").text("Bank");
+$("#mpModule").text("Module");
+$("#mpVoltage").text("Voltage");
+$("#mpvmin").text("Vmin");
 // nota: aquí seguramente falte  $("#mpvmax").text("V. Máximo");
-$("#mptint").text("Temp interna °C");
-$("#mptext").text("Temp externa °C");
-$("#mpbypass").text("Bypass %"); //For me is better not translate "Bypass"
-$("#mpbpc").text("Recuento de paquetes incorrectos");
-$("#mppktr").text("Paquetes recibidos");
-$("#mpbal").text("Energía consumida en balanceo (mAh)");
+$("#mptint").text("Temp intern °C");
+$("#mptext").text("Temp extern °C");
+$("#mpbypass").text("Omleiding %"); //For me is better not translate "Bypass"
+$("#mpbpc").text("Afgekeurde pakketten");
+$("#mppktr").text("Ontvangen pakketten");
+$("#mpbal").text("Balanceringsvermogen (mAh)");
 
 $("#error1").text("El controlador tiene dificultades para comunicarse con los módulos de monitoreo de celda.");
 $("#error3").text("El controlador está configurado para utilizar más módulos de los que puede soportar.");
